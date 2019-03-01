@@ -30,6 +30,10 @@ header {
   background-color: #e2e2e2;
 }
 
+h1 {
+  text-align: center;
+}
+
 a {
   text-decoration: none;
   padding: .75em;
@@ -45,16 +49,18 @@ ul {
   list-style-type: none;
 }
 
-.nav li{
+.nav li {
   display: inline-block;
 }
 
 @media only screen and (min-width: 38em) {
 
-   .logo {
-     text-align: left;
-   }
+  .logo {
+    text-align: left;
+  }
 
-   .nav{
-     text-align: right;
-   }
+  .nav {
+    text-align: right;
+  }
+
+}
