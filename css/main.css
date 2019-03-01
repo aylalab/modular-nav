@@ -44,3 +44,17 @@ a:hover {
 ul {
   list-style-type: none;
 }
+
+.nav li{
+  display: inline-block;
+}
+
+@media only screen and (min-width: 38em) {
+
+   .logo {
+     text-align: left;
+   }
+
+   .nav{
+     text-align: right;
+   }
