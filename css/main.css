@@ -23,6 +23,7 @@ body {
 
 .current {
   background-color: #0074d9;
+  color: #fff;
 }
 
 header {
@@ -31,4 +32,15 @@ header {
 
 a {
   text-decoration: none;
+  padding: .75em;
+  color: #0074d9;
+}
+
+a:hover {
+  background-color: #0074d9;
+  color: #fff;
+}
+
+ul {
+  list-style-type: none;
 }
